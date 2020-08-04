@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"s_player","path":"sprites/s_player/s_player.yy",},"order":0,},
     {"id":{"name":"o_sphere","path":"objects/o_sphere/o_sphere.yy",},"order":5,},
+    {"id":{"name":"r_start_screen","path":"rooms/r_start_screen/r_start_screen.yy",},"order":2,},
     {"id":{"name":"s_moon","path":"sprites/s_moon/s_moon.yy",},"order":1,},
     {"id":{"name":"s_background","path":"sprites/s_background/s_background.yy",},"order":2,},
     {"id":{"name":"s_planet_water","path":"sprites/s_planet_water/s_planet_water.yy",},"order":0,},
@@ -13,7 +14,8 @@
     {"id":{"name":"o_moon","path":"objects/o_moon/o_moon.yy",},"order":2,},
     {"id":{"name":"o_view","path":"objects/o_view/o_view.yy",},"order":3,},
     {"id":{"name":"o_zoom","path":"objects/o_zoom/o_zoom.yy",},"order":4,},
-    {"id":{"name":"r_start","path":"rooms/r_start/r_start.yy",},"order":0,},
+    {"id":{"name":"r_gameover","path":"rooms/r_gameover/r_gameover.yy",},"order":1,},
+    {"id":{"name":"r_world","path":"rooms/r_world/r_world.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -29,7 +31,9 @@
     "children": [],
   },
   "RoomOrder": [
-    {"name":"r_start","path":"rooms/r_start/r_start.yy",},
+    {"name":"r_world","path":"rooms/r_world/r_world.yy",},
+    {"name":"r_gameover","path":"rooms/r_gameover/r_gameover.yy",},
+    {"name":"r_start_screen","path":"rooms/r_start_screen/r_start_screen.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
