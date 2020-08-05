@@ -46,6 +46,9 @@
     {"folderPath":"folders/Sprites/start.yy","order":5,"resourceVersion":"1.0","name":"start","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/world.yy","order":6,"resourceVersion":"1.0","name":"world","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/start.yy","order":6,"resourceVersion":"1.0","name":"start","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/vehicles.yy","order":7,"resourceVersion":"1.0","name":"vehicles","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/vehicles/bodies.yy","order":1,"resourceVersion":"1.0","name":"bodies","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/vehicles/engines.yy","order":2,"resourceVersion":"1.0","name":"engines","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
