@@ -3,8 +3,17 @@
 
 draw_self()
 
-// This gets the position of the center of the screen
-draw_x = o_view.x + 500
-draw_y = o_view.y + 300 
+
 
 draw_sprite_ext(s_player, 0, draw_x, draw_y, 5, 5, o_player.image_angle, c_white, 1)
+
+if trajectory_support == true
+	{
+		var _list = ds_list_create();
+		calculate_point(_list, speed, direction, x, y, 500);
+		for (var _i=0; _i<ds_list_size(_list); _i++) {
+			var _position = _list[| _i];
+			draw_circle(_position.x, _position.y, 2, false);
+		}
+		ds_list_destroy(_list);
+	}

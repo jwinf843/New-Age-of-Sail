@@ -35,4 +35,11 @@ with (o_planet)
 image_angle = direction
 
 
+// HUD VARIABLES UPD
+// This gets the position of the center of the screen
+draw_x = o_view.x + 500
+draw_y = o_view.y + 300
 
+var _list = ds_list_create()
+var _iterations = 25
+calculate_point(_list, speed, direction, x, y, _iterations)
