@@ -1,7 +1,6 @@
 {
   "bboxMode": 0,
   "collisionKind": 1,
-  "separateMasks": false,
   "type": 0,
   "origin": 4,
   "preMultiplyAlpha": false,
@@ -101,8 +100,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Circle","resourceVersion":"1.0","name":"330873e7-4d50-4a0b-bc15-71554b8ce3fa","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "bodies",
-    "path": "folders/Sprites/bodies.yy",
+    "name": "celestial bodies",
+    "path": "folders/Sprites/celestial bodies.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_planet_clouds",

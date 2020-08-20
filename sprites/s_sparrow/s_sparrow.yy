@@ -1,6 +1,7 @@
 {
   "bboxMode": 0,
   "collisionKind": 1,
+  "separateMasks": false,
   "type": 0,
   "origin": 0,
   "preMultiplyAlpha": false,
@@ -8,14 +9,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 15,
+  "bbox_right": 63,
   "bbox_top": 0,
-  "bbox_bottom": 15,
+  "bbox_bottom": 63,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 16,
-  "height": 16,
+  "width": 64,
+  "height": 64,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +25,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"6fd3ae58-1e5d-487c-9984-159a6039fe1b","path":"sprites/s_sphere/s_sphere.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6fd3ae58-1e5d-487c-9984-159a6039fe1b","path":"sprites/s_sphere/s_sphere.yy",},"LayerId":{"name":"c7b9da6e-01d7-4c50-bc6b-3c6230c92277","path":"sprites/s_sphere/s_sphere.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_sphere","path":"sprites/s_sphere/s_sphere.yy",},"resourceVersion":"1.0","name":"6fd3ae58-1e5d-487c-9984-159a6039fe1b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"bbc8c1cf-48f7-41c7-9cef-a734457758c4","path":"sprites/s_sparrow/s_sparrow.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bbc8c1cf-48f7-41c7-9cef-a734457758c4","path":"sprites/s_sparrow/s_sparrow.yy",},"LayerId":{"name":"cb18f002-faa7-400e-b98d-8945609e889f","path":"sprites/s_sparrow/s_sparrow.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_sparrow","path":"sprites/s_sparrow/s_sparrow.yy",},"resourceVersion":"1.0","name":"bbc8c1cf-48f7-41c7-9cef-a734457758c4","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_sphere","path":"sprites/s_sphere/s_sphere.yy",},
+    "spriteId": {"name":"s_sparrow","path":"sprites/s_sparrow/s_sparrow.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +42,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"345bb5f0-6e4d-46aa-bc35-4c1a316e013d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6fd3ae58-1e5d-487c-9984-159a6039fe1b","path":"sprites/s_sphere/s_sphere.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b73c7ede-fc2f-4ebd-9467-b8cc10f57db8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bbc8c1cf-48f7-41c7-9cef-a734457758c4","path":"sprites/s_sparrow/s_sparrow.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +59,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_sphere","path":"sprites/s_sphere/s_sphere.yy",},
+    "parent": {"name":"s_sparrow","path":"sprites/s_sparrow/s_sparrow.yy",},
     "resourceVersion": "1.3",
-    "name": "s_sphere",
+    "name": "s_sparrow",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c7b9da6e-01d7-4c50-bc6b-3c6230c92277","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cb18f002-faa7-400e-b98d-8945609e889f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "celestial bodies",
-    "path": "folders/Sprites/celestial bodies.yy",
+    "name": "bodies",
+    "path": "folders/Sprites/vehicles/bodies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "s_sphere",
+  "name": "s_sparrow",
   "tags": [],
   "resourceType": "GMSprite",
 }

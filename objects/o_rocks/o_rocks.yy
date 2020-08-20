@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_moon",
-    "path": "sprites/s_moon/s_moon.yy",
+    "name": "s_rocks",
+    "path": "sprites/s_rocks/s_rocks.yy",
   },
   "solid": false,
   "visible": true,
@@ -11,7 +11,7 @@
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
-  "physicsGroup": 0,
+  "physicsGroup": 1,
   "physicsDensity": 0.5,
   "physicsRestitution": 0.1,
   "physicsLinearDamping": 0.1,
@@ -21,7 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"o_moon","path":"objects/o_moon/o_moon.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"o_rocks","path":"objects/o_rocks/o_rocks.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,7 +30,7 @@
     "path": "folders/Objects/celestial bodies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_moon",
+  "name": "o_rocks",
   "tags": [],
   "resourceType": "GMObject",
 }

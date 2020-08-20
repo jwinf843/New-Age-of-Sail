@@ -1,7 +1,6 @@
 {
   "bboxMode": 0,
   "collisionKind": 0,
-  "separateMasks": false,
   "type": 0,
   "origin": 4,
   "preMultiplyAlpha": false,
@@ -69,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"38618125-04b4-4d1e-a142-3496018ca0d0","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "bodies",
-    "path": "folders/Sprites/bodies.yy",
+    "name": "celestial bodies",
+    "path": "folders/Sprites/celestial bodies.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_planet_water",

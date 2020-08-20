@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "celestial bodies",
+    "path": "folders/Objects/celestial bodies.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_planet",

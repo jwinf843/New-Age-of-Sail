@@ -1,7 +1,6 @@
 {
   "bboxMode": 0,
   "collisionKind": 1,
-  "separateMasks": false,
   "type": 0,
   "origin": 4,
   "preMultiplyAlpha": false,
@@ -69,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"35d0bf50-9ac5-4679-b4bb-d7026f8bf824","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "bodies",
-    "path": "folders/Sprites/bodies.yy",
+    "name": "celestial bodies",
+    "path": "folders/Sprites/celestial bodies.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_moon",
