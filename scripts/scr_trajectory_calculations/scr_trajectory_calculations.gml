@@ -13,12 +13,12 @@ function calculate_point(_list, _last_speed, _last_direction, _last_x, _last_y, 
 		_this_x += _additional_trajectory.x;
 		_this_y += _additional_trajectory.y;
 	}
-	_this_speed = point_distance(_last_x, _last_y, _this_x, _this_y);
-	_this_direction = point_direction(_last_x, _last_y, _this_x, _this_y);
+	var this_speed = point_distance(_last_x, _last_y, _this_x, _this_y);
+	var this_direction = point_direction(_last_x, _last_y, _this_x, _this_y);
 	var _point = new Vector2(_this_x, _this_y);
 	ds_list_add(_list, _point);
 	if --_iteration > 0 {
-		calculate_point(_list, _this_speed, _this_direction, _this_x, _this_y, _iteration);
+		calculate_point(_list, this_speed, this_direction, _this_x, _this_y, _iteration);
 	}
 }
 
